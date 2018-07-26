@@ -1,0 +1,2 @@
+Carpeta Assets:
+Todos las imagenes, sonidos o recursos que se usarán para el desarrollo de este clon
