@@ -48,6 +48,334 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="PlayerCuerpo" sid="689106062957761">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="6" loop="1" name="CuerpoIddle" pingpong="0" repeatcount="1" repeatto="0" sid="937927522052351" speed="8">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.517241" original-source="F:\Construct\MetalSlugClon\Assets\Player\Iddle\CuerpoPistola_Iddle01.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.0344828" />
+                            <point x="0.59375" y="0.448276" />
+                            <point x="0.59375" y="0.482759" />
+                            <point x="0.5625" y="0.517241" />
+                            <point x="0.5" y="0.931035" />
+                            <point x="0.1875" y="0.793103" />
+                            <point x="0.03125" y="0.482759" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.517241" original-source="F:\Construct\MetalSlugClon\Assets\Player\Iddle\CuerpoPistola_Iddle02.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.517241" original-source="F:\Construct\MetalSlugClon\Assets\Player\Iddle\CuerpoPistola_Iddle03.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.517241" original-source="F:\Construct\MetalSlugClon\Assets\Player\Iddle\CuerpoPistola_Iddle04.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.517241" original-source="F:\Construct\MetalSlugClon\Assets\Player\Iddle\CuerpoPistola_Iddle05.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.517241" original-source="F:\Construct\MetalSlugClon\Assets\Player\Iddle\CuerpoPistola_Iddle06.png" />
+                </animation>
+                <animation framecount="2" loop="0" name="LookUp" pingpong="0" repeatcount="1" repeatto="0" sid="554045650785609" speed="8">
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Iddle\MirarHaciaArriba01.png">
+                        <collision-poly>
+                            <point x="0.272727" y="0.321429" />
+                            <point x="0.484848" y="0.142857" />
+                            <point x="0.606061" y="0.464286" />
+                            <point x="0.636364" y="0.5" />
+                            <point x="0.939394" y="0.928571" />
+                            <point x="0.484848" y="0.964286" />
+                            <point x="0.0909091" y="0.892857" />
+                            <point x="0.030303" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Iddle\MirarHaciaArriba02.png">
+                        <collision-poly>
+                            <point x="0.212121" y="0.25" />
+                            <point x="0.484848" y="0.0714286" />
+                            <point x="0.606061" y="0.464286" />
+                            <point x="0.878788" y="0.5" />
+                            <point x="0.757576" y="0.714286" />
+                            <point x="0.484848" y="0.928571" />
+                            <point x="0.0909091" y="0.892857" />
+                            <point x="0.030303" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="6" loop="1" name="LookUpIddle" pingpong="0" repeatcount="1" repeatto="0" sid="304123741526804" speed="8">
+                    <frame duration="1" hotspotX="0.517241" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Iddle\PistolaCuerpohaciaArriba_Iddle01.png" />
+                    <frame duration="1" hotspotX="0.517241" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Iddle\PistolaCuerpohaciaArriba_Iddle02.png" />
+                    <frame duration="1" hotspotX="0.517241" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Iddle\PistolaCuerpohaciaArriba_Iddle03.png" />
+                    <frame duration="1" hotspotX="0.517241" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Iddle\PistolaCuerpohaciaArriba_Iddle04.png" />
+                    <frame duration="1" hotspotX="0.517241" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Iddle\PistolaCuerpohaciaArriba_Iddle05.png" />
+                    <frame duration="1" hotspotX="0.517241" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Iddle\PistolaCuerpohaciaArriba_Iddle06.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="LookDown" pingpong="0" repeatcount="1" repeatto="0" sid="565625516960176" speed="5">
+                    <frame duration="1" hotspotX="0.521739" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueAbajo_Pistola01.png" />
+                </animation>
+                <animation framecount="11" loop="1" name="CuerpoCaminar" pingpong="0" repeatcount="1" repeatto="0" sid="833006654997734" speed="20">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Caminar\Pistola_Caminar02.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Caminar\Pistola_Caminar03.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Caminar\Pistola_Caminar04.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Caminar\Pistola_Caminar05.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Caminar\Pistola_Caminar06.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Caminar\Pistola_Caminar07.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Caminar\Pistola_Caminar08.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Caminar\Pistola_Caminar09.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Caminar\Pistola_Caminar10.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Caminar\Pistola_Caminar11.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Caminar\Pistola_Caminar12.png" />
+                </animation>
+                <animation framecount="11" loop="0" name="CuerpoSaltar" pingpong="0" repeatcount="1" repeatto="0" sid="476403460215443" speed="10">
+                    <frame duration="1" hotspotX="0.517241" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Cuerpo_Saltar01.png" />
+                    <frame duration="1" hotspotX="0.517241" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Cuerpo_Saltar02.png" />
+                    <frame duration="1" hotspotX="0.517241" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Cuerpo_Saltar03.png" />
+                    <frame duration="1" hotspotX="0.517241" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Cuerpo_Saltar04.png" />
+                    <frame duration="2" hotspotX="0.517241" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Cuerpo_Saltar05.png" />
+                    <frame duration="4" hotspotX="0.517241" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Cuerpo_Saltar06.png" />
+                    <frame duration="2" hotspotX="0.517241" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Cuerpo_Saltar07.png" />
+                    <frame duration="1" hotspotX="0.517241" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Cuerpo_Saltar08.png" />
+                    <frame duration="1" hotspotX="0.517241" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Cuerpo_Saltar09.png" />
+                    <frame duration="1" hotspotX="0.517241" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Cuerpo_Saltar10.png" />
+                    <frame duration="1" hotspotX="0.517241" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Cuerpo_Saltar11.png" />
+                </animation>
+                <animation framecount="6" loop="0" name="CuerpoSaltar_D" pingpong="0" repeatcount="1" repeatto="0" sid="427877787621516" speed="8">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.514286" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Cuerpo_Saltar+Direccion01.png" />
+                    <frame duration="2" hotspotX="0.5" hotspotY="0.514286" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Cuerpo_Saltar+Direccion02.png" />
+                    <frame duration="3" hotspotX="0.5" hotspotY="0.514286" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Cuerpo_Saltar+Direccion03.png" />
+                    <frame duration="2" hotspotX="0.5" hotspotY="0.514286" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Cuerpo_Saltar+Direccion04.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.514286" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Cuerpo_Saltar+Direccion05.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.514286" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Cuerpo_Saltar+Direccion06.png" />
+                </animation>
+                <animation framecount="10" loop="0" name="CuerpoAtaquePistola_H" pingpong="0" repeatcount="1" repeatto="0" sid="616245955834634" speed="20">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.517241" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueHorizontal_Pistola01.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.517241" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueHorizontal_Pistola02.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.517241" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueHorizontal_Pistola03.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.517241" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueHorizontal_Pistola04.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.517241" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueHorizontal_Pistola05.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.517241" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueHorizontal_Pistola06.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.517241" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueHorizontal_Pistola07.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.517241" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueHorizontal_Pistola08.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.517241" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueHorizontal_Pistola09.PNG" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.517241" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueHorizontal_Pistola10.png" />
+                </animation>
+                <animation framecount="6" loop="0" name="CuerpoAtaquePistola_Down" pingpong="0" repeatcount="1" repeatto="0" sid="654640185271044" speed="20">
+                    <frame duration="1" hotspotX="0.521739" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueAbajo_Pistola02.png" />
+                    <frame duration="1" hotspotX="0.521739" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueAbajo_Pistola03.png" />
+                    <frame duration="1" hotspotX="0.521739" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueAbajo_Pistola04.png" />
+                    <frame duration="1" hotspotX="0.521739" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueAbajo_Pistola05.png" />
+                    <frame duration="1" hotspotX="0.521739" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueAbajo_Pistola06.png" />
+                    <frame duration="1" hotspotX="0.521739" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueAbajo_Pistola07.png" />
+                </animation>
+                <animation framecount="10" loop="0" name="CuerpoAtaquePistola_Up" pingpong="0" repeatcount="1" repeatto="0" sid="836532567000379" speed="20">
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueArriba_Pistola01.png" />
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueArriba_Pistola02.png" />
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueArriba_Pistola03.png" />
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueArriba_Pistola04.png" />
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueArriba_Pistola05.png" />
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueArriba_Pistola06.png" />
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueArriba_Pistola07.png" />
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueArriba_Pistola08.png" />
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueArriba_Pistola09.png" />
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueArriba_Pistola10.png" />
+                </animation>
+                <animation framecount="6" loop="0" name="CuerpoAtaqueMeleePistola" pingpong="0" repeatcount="1" repeatto="0" sid="893560857249380" speed="20">
+                    <frame duration="1" hotspotX="0.509804" hotspotY="0.515152" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueCuerpo_Melee01.png" />
+                    <frame duration="1" hotspotX="0.509804" hotspotY="0.515152" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueCuerpo_Melee02.png" />
+                    <frame duration="1" hotspotX="0.509804" hotspotY="0.515152" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueCuerpo_Melee03.png" />
+                    <frame duration="1" hotspotX="0.509804" hotspotY="0.515152" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueCuerpo_Melee04.png" />
+                    <frame duration="1" hotspotX="0.509804" hotspotY="0.515152" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueCuerpo_Melee05.png" />
+                    <frame duration="1" hotspotX="0.509804" hotspotY="0.515152" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueCuerpo_Melee06.png" />
+                </animation>
+                <animation framecount="8" loop="0" name="CuerpoAtaqueMeleePistola_Saltar" pingpong="0" repeatcount="1" repeatto="0" sid="941828390044785" speed="20">
+                    <frame duration="1" hotspotX="0.510638" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueCuerpo_Melee+Salto01.png" />
+                    <frame duration="1" hotspotX="0.510638" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueCuerpo_Melee+Salto02.png" />
+                    <frame duration="1" hotspotX="0.510638" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueCuerpo_Melee+Salto03.png" />
+                    <frame duration="1" hotspotX="0.510638" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueCuerpo_Melee+Salto04.png" />
+                    <frame duration="1" hotspotX="0.510638" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueCuerpo_Melee+Salto05.png" />
+                    <frame duration="10" hotspotX="0.510638" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueCuerpo_Melee+Salto06.png" />
+                    <frame duration="2" hotspotX="0.510638" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueCuerpo_Melee+Salto07.png" />
+                    <frame duration="1" hotspotX="0.510638" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueCuerpo_Melee+Salto08.png" />
+                </animation>
+                <animation framecount="5" loop="0" name="CuerpoAtaqueGranadaPistola" pingpong="0" repeatcount="1" repeatto="0" sid="443917251086110" speed="20">
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\Granada_Pistola01.png" />
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\Granada_Pistola02.png" />
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\Granada_Pistola03.png" />
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\Granada_Pistola04.png" />
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\Granada_Pistola05.png" />
+                </animation>
+                <animation framecount="18" loop="0" name="CuerpoRecarga" pingpong="0" repeatcount="1" repeatto="0" sid="679222028323611" speed="15">
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.512195" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\Recargar_Pistola01.png" />
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.512195" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\Recargar_Pistola02.png" />
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.512195" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\Recargar_Pistola03.png" />
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.512195" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\Recargar_Pistola04.png" />
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.512195" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\Recargar_Pistola05.png" />
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.512195" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\Recargar_Pistola06.png" />
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.512195" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\Recargar_Pistola07.png" />
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.512195" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\Recargar_Pistola08.png" />
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.512195" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\Recargar_Pistola09.png" />
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.512195" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\Recargar_Pistola10.png" />
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.512195" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\Recargar_Pistola11.png" />
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.512195" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\Recargar_Pistola12.png" />
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.512195" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\Recargar_Pistola13.png" />
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.512195" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\Recargar_Pistola14.png" />
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.512195" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\Recargar_Pistola15.png" />
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.512195" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\Recargar_Pistola16.png" />
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.512195" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\Recargar_Pistola17.png" />
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.512195" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\Recargar_Pistola18.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PlayerPiernas" sid="588414844881102">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="PiernasIddle" pingpong="0" repeatcount="1" repeatto="0" sid="820844585386123" speed="5">
+                    <frame duration="1" hotspotX="0.52381" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Iddle\Piernas_Iddle01.png">
+                        <collision-poly>
+                            <point x="0.0952381" y="0.125" />
+                            <point x="0.47619" y="0" />
+                            <point x="0.857143" y="0.1875" />
+                            <point x="0.952381" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0.47619" y="0.625" />
+                            <point x="0" y="1" />
+                            <point x="0.142857" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="12" loop="1" name="PiernasCaminar" pingpong="0" repeatcount="1" repeatto="0" sid="533810502681701" speed="20">
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Caminar\Piernas_Caminar01.png">
+                        <collision-poly>
+                            <point x="0.272727" y="0.45" />
+                            <point x="0.484848" y="0.05" />
+                            <point x="0.606061" y="0.65" />
+                            <point x="0.636364" y="0.5" />
+                            <point x="0.666667" y="0.45" />
+                            <point x="0.484848" y="0.75" />
+                            <point x="0.121212" y="0.8" />
+                            <point x="0.242424" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Caminar\Piernas_Caminar02.png" />
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Caminar\Piernas_Caminar03.png" />
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Caminar\Piernas_Caminar04.png" />
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Caminar\Piernas_Caminar05.png" />
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Caminar\Piernas_Caminar06.png" />
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Caminar\Piernas_Caminar07.png" />
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Caminar\Piernas_Caminar08.png" />
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Caminar\Piernas_Caminar09.png" />
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Caminar\Piernas_Caminar10.png" />
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Caminar\Piernas_Caminar11.png" />
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Caminar\Piernas_Caminar12.png" />
+                </animation>
+                <animation framecount="7" loop="1" name="PiernasCaminar_Agachado" pingpong="0" repeatcount="1" repeatto="0" sid="763715047585071" speed="15">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Caminar\AgachadoPistola_Caminar01.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Caminar\AgachadoPistola_Caminar02.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Caminar\AgachadoPistola_Caminar03.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Caminar\AgachadoPistola_Caminar04.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Caminar\AgachadoPistola_Caminar05.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Caminar\AgachadoPistola_Caminar06.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Caminar\AgachadoPistola_Caminar07.png" />
+                </animation>
+                <animation framecount="11" loop="0" name="PiernasSaltar" pingpong="0" repeatcount="1" repeatto="0" sid="386739069811474" speed="12">
+                    <frame duration="1" hotspotX="0.52381" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Piernas_Saltar01.png" />
+                    <frame duration="1" hotspotX="0.52381" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Piernas_Saltar02.png" />
+                    <frame duration="1" hotspotX="0.52381" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Piernas_Saltar03.png" />
+                    <frame duration="1" hotspotX="0.52381" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Piernas_Saltar04.png" />
+                    <frame duration="2" hotspotX="0.52381" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Piernas_Saltar05.png" />
+                    <frame duration="3" hotspotX="0.52381" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Piernas_Saltar06.png" />
+                    <frame duration="2" hotspotX="0.52381" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Piernas_Saltar07.png" />
+                    <frame duration="1" hotspotX="0.52381" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Piernas_Saltar08.png" />
+                    <frame duration="1" hotspotX="0.52381" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Piernas_Saltar09.png" />
+                    <frame duration="1" hotspotX="0.52381" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Piernas_Saltar10.png" />
+                    <frame duration="1" hotspotX="0.52381" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Piernas_Saltar11.png" />
+                </animation>
+                <animation framecount="12" loop="0" name="PiernasSaltar_D" pingpong="0" repeatcount="1" repeatto="0" sid="909666164135471" speed="8">
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Piernas_Saltar+Direccion01.png" />
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Piernas_Saltar+Direccion02.png" />
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Piernas_Saltar+Direccion03.png" />
+                    <frame duration="5" hotspotX="0.514286" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Piernas_Saltar+Direccion04.png" />
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Piernas_Saltar+Direccion05.png" />
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Piernas_Saltar+Direccion06.png" />
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Piernas_Saltar+Direccion07.png" />
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Piernas_Saltar+Direccion08.png" />
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Piernas_Saltar+Direccion09.png" />
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Piernas_Saltar+Direccion10.png" />
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Piernas_Saltar+Direccion11.png" />
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Saltar\Piernas_Saltar+Direccion12.png" />
+                </animation>
+                <animation framecount="6" loop="1" name="PiernasIddle_Agachado" pingpong="0" repeatcount="1" repeatto="0" sid="366058780611923" speed="8">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Iddle\Pistola_IddleAgachado01.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Iddle\Pistola_IddleAgachado02.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Iddle\Pistola_IddleAgachado03.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Iddle\Pistola_IddleAgachado04.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Iddle\Pistola_IddleAgachado05.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Iddle\Pistola_IddleAgachado06.png" />
+                </animation>
+                <animation framecount="6" loop="1" name="PiernasIddle_Agachado2" pingpong="0" repeatcount="1" repeatto="0" sid="403034960248453" speed="8">
+                    <frame duration="1" hotspotX="0.516129" hotspotY="0.518519" original-source="F:\Construct\MetalSlugClon\Assets\Player\Iddle\Pistola_IddleAgachado01_2.png" />
+                    <frame duration="1" hotspotX="0.516129" hotspotY="0.518519" original-source="F:\Construct\MetalSlugClon\Assets\Player\Iddle\Pistola_IddleAgachado02_2.png" />
+                    <frame duration="1" hotspotX="0.516129" hotspotY="0.518519" original-source="F:\Construct\MetalSlugClon\Assets\Player\Iddle\Pistola_IddleAgachado03_2.png" />
+                    <frame duration="1" hotspotX="0.516129" hotspotY="0.518519" original-source="F:\Construct\MetalSlugClon\Assets\Player\Iddle\Pistola_IddleAgachado04_2.png" />
+                    <frame duration="1" hotspotX="0.516129" hotspotY="0.518519" original-source="F:\Construct\MetalSlugClon\Assets\Player\Iddle\Pistola_IddleAgachado05_2.png" />
+                    <frame duration="1" hotspotX="0.516129" hotspotY="0.518519" original-source="F:\Construct\MetalSlugClon\Assets\Player\Iddle\Pistola_IddleAgachado06_2.png" />
+                </animation>
+                <animation framecount="10" loop="0" name="AtaquePistola_Agachado" pingpong="0" repeatcount="1" repeatto="0" sid="593887710948175" speed="20">
+                    <frame duration="1" hotspotX="0.509804" hotspotY="0.518519" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueAgachado_Pistola01.png" />
+                    <frame duration="1" hotspotX="0.509804" hotspotY="0.518519" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueAgachado_Pistola02.png" />
+                    <frame duration="1" hotspotX="0.509804" hotspotY="0.518519" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueAgachado_Pistola03.png" />
+                    <frame duration="1" hotspotX="0.509804" hotspotY="0.518519" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueAgachado_Pistola04.png" />
+                    <frame duration="1" hotspotX="0.509804" hotspotY="0.518519" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueAgachado_Pistola05.png" />
+                    <frame duration="1" hotspotX="0.509804" hotspotY="0.518519" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueAgachado_Pistola06.png" />
+                    <frame duration="1" hotspotX="0.509804" hotspotY="0.518519" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueAgachado_Pistola07.png" />
+                    <frame duration="1" hotspotX="0.509804" hotspotY="0.518519" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueAgachado_Pistola08.png" />
+                    <frame duration="1" hotspotX="0.509804" hotspotY="0.518519" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueAgachado_Pistola09.png" />
+                    <frame duration="1" hotspotX="0.509804" hotspotY="0.518519" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueAgachado_Pistola10.png" />
+                </animation>
+                <animation framecount="6" loop="0" name="AtaquePistolaMelee_Agachado" pingpong="0" repeatcount="1" repeatto="0" sid="937471351180695" speed="20">
+                    <frame duration="1" hotspotX="0.509091" hotspotY="0.515152" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueAgachado_MeleeP01.png" />
+                    <frame duration="1" hotspotX="0.509091" hotspotY="0.515152" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueAgachado_MeleeP02.png" />
+                    <frame duration="1" hotspotX="0.509091" hotspotY="0.515152" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueAgachado_MeleeP03.png" />
+                    <frame duration="1" hotspotX="0.509091" hotspotY="0.515152" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueAgachado_MeleeP04.png" />
+                    <frame duration="1" hotspotX="0.509091" hotspotY="0.515152" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueAgachado_MeleeP05.png" />
+                    <frame duration="5" hotspotX="0.509091" hotspotY="0.515152" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\AtaqueAgachado_MeleeP06.png" />
+                </animation>
+                <animation framecount="6" loop="0" name="AtaquePistolaGranada_Agachado" pingpong="0" repeatcount="1" repeatto="0" sid="581471304567257" speed="20">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\Granada_PistolaAgachado01.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\Granada_PistolaAgachado02.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\Granada_PistolaAgachado03.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\Granada_PistolaAgachado04.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\Granada_PistolaAgachado05.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Ataque\Granada_PistolaAgachado06.png" />
+                </animation>
+                <animation framecount="19" loop="0" name="Muerte1" pingpong="0" repeatcount="1" repeatto="0" sid="866248974199551" speed="12">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Muerte\MuerteV1_01.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Muerte\MuerteV1_02.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Muerte\MuerteV1_03.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Muerte\MuerteV1_04.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Muerte\MuerteV1_05.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Muerte\MuerteV1_06.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Muerte\MuerteV1_07.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Muerte\MuerteV1_08.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Muerte\MuerteV1_09.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Muerte\MuerteV1_10.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Muerte\MuerteV1_11.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Muerte\MuerteV1_12.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Muerte\MuerteV1_13.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Muerte\MuerteV1_14.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Muerte\MuerteV1_15.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Muerte\MuerteV1_16.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Muerte\MuerteV1_17.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Muerte\MuerteV1_18.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Muerte\MuerteV1_19.png" />
+                </animation>
+                <animation framecount="10" loop="0" name="Muerte2" pingpong="0" repeatcount="1" repeatto="0" sid="563564885358021" speed="12">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Muerte\MuerteV2_01.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Muerte\MuerteV2_02.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Muerte\MuerteV2_03.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Muerte\MuerteV2_04.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Muerte\MuerteV2_05.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Muerte\MuerteV2_06.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Muerte\MuerteV2_07.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Muerte\MuerteV2_08.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Muerte\MuerteV2_09.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Construct\MetalSlugClon\Assets\Player\Muerte\MuerteV2_10.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
