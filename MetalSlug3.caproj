@@ -383,6 +383,7 @@
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>HUD.xml</event-sheet>
     </event-folder>
     <global-instances />
     <sounds-folder />
